@@ -1,0 +1,20 @@
+table{
+	border-top-width: 1px;
+	border-top-style:solid;
+	border-top-color:rgb(210,200,220);
+	border-bottom-width: 1px;
+	border-bottom-style:solid;
+	border-bottom-color:rgb(210,200,220);
+	}
+td:hover{
+	background-color:rgb(235,240,225);
+	color:red;
+	}
+tr,td{
+	background-color:green;
+	color:white
+	}	
+tr,td{
+	background-color:lightblue;
+	color:white;
+	}

@@ -1,0 +1,9 @@
+p{
+	color:lightblue;
+	background:darkblue;
+	font-size:large;
+	text-align:center;
+	font-family:Verdana;
+	text-shadow:0 0 5px #FFFF66,1px 1px 1px #fff,-1px 1px #fff,0 0 10px #FFFF99,0 0 20px #00FFFF;
+	/*text-shadaw properties, #FFFF66 #00FFFF are colors, "px" is offset*/
+}

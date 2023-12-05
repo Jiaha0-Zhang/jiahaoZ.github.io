@@ -158,7 +158,8 @@ section{
     font-size: 4.5em;
     text-align: left;
     font-family: impact, sans-serif;
-    line-height: 900;
+    line-height: 2;
+    font-weight: 900;
     border:5px double #fff;
     padding:10px;
 }

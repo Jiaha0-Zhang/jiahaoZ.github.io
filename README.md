@@ -6,11 +6,11 @@ This repository is for Tech Academy projects, and follow the course to learn and
 
 ## Projects:
 
-* [Course Projects]()
-* [Cinema Homepage Project]()
-* [One-Page Website]()
-* [Portfolio Website]()
-* [Assignments]()
+* [Course Projects](https://github.com/Jiaha0-Zhang/HTML-and-CSS-Projects/tree/main/Course_Projects)
+* [Cinema Homepage Project](https://github.com/Jiaha0-Zhang/HTML-and-CSS-Projects/tree/main/Cinema_homepage_Project)
+* [One-Page Website](https://github.com/Jiaha0-Zhang/HTML-and-CSS-Projects/tree/main/One-Page%20Website)
+* [Portfolio Website](https://github.com/Jiaha0-Zhang/HTML-and-CSS-Projects/tree/main/Portfolio%20Website)
+* [Assignments](https://github.com/Jiaha0-Zhang/HTML-and-CSS-Projects/tree/main/Assignments)
 
 #### Course Projects:
 

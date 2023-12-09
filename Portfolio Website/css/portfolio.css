@@ -38,7 +38,7 @@ p {
 /* Paragraph element hover effect */
 p:hover {
     transition: transform 1s; /* This makes the transform effect last 1 second */
-	transform: scale(1.01); /* This makes the paragraphs increase slightly in size when hovered over */
+	transform: scale(1.1); /* This makes the paragraphs increase slightly in size when hovered over */
 }
 
 /* Center class - this applies to all elements with the class "center" */
@@ -301,7 +301,6 @@ input[type=submit] {
     color: #03e9f4;
     font-size: 20px;
     font-style: italic;
-    font-weight: bold;
     transition: 0.5s;
 }
 

@@ -54,7 +54,8 @@
          <!--Slidesshow section-->
          <div class="carousel">
             <div class="container">
-                <img src="./images/mypic.jpg" alt="">
+                <img src="./images/mypic.jpg" alt="" >
+                <div class="description">I'm always down to be on your project!</div>
                 <img src="./images/HTML_CSS_and_JavaScript.png" alt="">
                 <img src="./images/unityCsharp.jpg" alt="">
                 <img src="./images/netframework.png" alt="">
@@ -121,28 +122,25 @@
         <!--End GitHub section-->
         
 
-        <!--Contact section-->
-        <div class="Row" id="Contact">
-            <!--Contact image, left column-->
-            <div class="Column_2 Column_tall">
-                <img src="images/WorkAtNight.png" alt="Contact_Image">
-            </div>
-            <!-- End Contact image, left column-->
-
             <!--Contact form, right column-->
-            <div class="Column_1 Column_tall">
-                <h1>Contact</h1>
-                <!--This specifies where and how to send the form data; we are leaving it blank-->
-                <form action="" method="POST"> <!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
-                    <label>Name:</label>
-                        <input type="text" placeholder="Please enter your name here">
-                    <label>Email:</label>
-                        <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
-                    <label>Message:</label>
-                        <input type="text" id="Message" name="Message" placeholder="Please write your message here">
-                        <input type="submit" value="SUBMIT">
-                </form>
-            </div>
+            <div id="Contact">
+                <button onclick="openForm()" class="Pop_Up_Button">CONTACT</button>
+                <div class="form-popup" id="myForm">
+                     <form action="https://formspree.io/f/xgegwndg" method="POST" class="form-container"> <!-- Here we are using a free online service from https://formspree.io/ to send our contact form to an email address of our choosing - note: it will not run unless live on the internet, you have to push it to your online website first -->
+                         <h1>Contact</h1>
+                         <label for="name"><b>Name</b></label>
+                           <input type="text" placeholder="Please enter your name" name="name" required>
+                         <label for="phone"><b>Phone</b></label>
+                           <input type="text" placeholder="Please enter phone number " name="phone">
+                         <label for="email"><b>Email</b></label>		
+                           <input type="text" placeholder="Please enter your email address " name="email" required>
+                         <label for="message"><b>Message</b></label>
+                           <input type="text" placeholder="Please leave message here" name="message">
+              
+                         <button type="submit" class="btn">SUBMIT</button>
+                         <button type="button" class="btn cancel" onclick="closeForm()">CLOSE</button>
+                     </form>
+                </div>
             <!--End Contact form, right column-->
         </div>
         <!--End Contact section-->
@@ -150,7 +148,7 @@
         <!--Footer section-->
         <footer>
             <p>
-                <p class="center">&copy github.com/Jiaha0-Zhang <a href="https://github.com/Jiaha0-Zhang" target="_blank">Thank you</a></p>
+                <p class="center">&copy github.com/Jiaha0-Zhang <a href="https://github.com/Jiaha0-Zhang" target="_blank">You are always welcome to halt Stay a while to my GitHub</a></p>
                 <br>
             </p>
         </footer>

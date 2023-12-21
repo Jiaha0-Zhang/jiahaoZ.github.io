@@ -51,6 +51,32 @@
         </div>
         <!--End video text-->
 
+         <!--Slidesshow section-->
+         <div class="carousel">
+            <div class="container">
+                <img src="./images/mypic.jpg" alt="">
+                <img src="./images/HTML_CSS_and_JavaScript.png" alt="">
+                <img src="./images/unityCsharp.jpg" alt="">
+                <img src="./images/netframework.png" alt="">
+                <img src="./images/contactme.jpg" alt="">               
+            </div>
+
+             <div class="shift">
+                <div class="btn left" onclick="leftShift()">&#8592;</div>  <!--left shift-->
+                <div class="btn right" onclick="rightShift()">&#8594;</div> <!--right shift-->
+             </div>
+
+             <div class="bottom">
+                <div class="indicator" onclick="setIndex(0)"></div>  <!--Three bottons at the bottom of images-->
+                <div class="indicator" onclick="setIndex(1)"></div>
+                <div class="indicator" onclick="setIndex(2)"></div>
+                <div class="indicator" onclick="setIndex(3)"></div>
+                <div class="indicator" onclick="setIndex(4)"></div>
+             </div>
+        </div>
+        <!--End Slidesshow section-->
+
+
          <!--About section-->
          <div class="Row" id="About">
             <!--Left column-->
@@ -129,6 +155,8 @@
             </p>
         </footer>
         <!--End Footer section-->
+
+        <script src="js/portfolio.js"></script>
 
     </body>
     <!--End Body-->
